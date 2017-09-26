@@ -1,0 +1,47 @@
+@import 'stylesheets/variables';
+
+html {
+  height: 100%;
+  background-color: #FFF;
+}
+
+body {
+  background-color: #FFF;
+  min-height: calc(100vh - 80px);
+  margin: 0;
+  position: relative;
+  padding-bottom: 80px;
+  font-family: $font-ingra;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: $font-monde;
+  color: $white;
+  font-size: $font-heading-l;
+  font-weight: 100;
+  margin: 0;
+
+  @include breakpoint(small) {
+    font-size: $font-heading-s;
+  };
+
+  & a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+#root {
+  height: 100%;
+  padding-top: 2em;
+}
