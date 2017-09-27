@@ -1,5 +1,5 @@
 # LatinLink
-Latin Link @ VT Website
+Latin Link @ VT Website: [http://www.latinlink.org.vt.edu/](http://www.latinlink.org.vt.edu/)
 
 ## Design
 Here's the design:
